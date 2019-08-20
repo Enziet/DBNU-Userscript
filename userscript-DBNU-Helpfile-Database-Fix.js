@@ -12,6 +12,11 @@
 (function() {
     'use strict';
 
+    var textColor = '#FFCB9A';
+    var bgColor = '#1A1F1C';
+    var linkColor = '#116466';
+    var linkHoverColor = '#D1E8E2';
+
     function _addAllOfTheStyles(css) {
         var head, style;
         head = document.getElementsByTagName('head')[0];
@@ -23,17 +28,17 @@
     }
 
     _addAllOfTheStyles('body { font-family: Hind,Arial,sans-serif !important; \
-                        color: #FFCB9A !important; \
-                        background-color: #1A1F1C !important; \
+                        color: '+textColor+' !important; \
+                        background-color: '+bgColor+' !important; \
                         background-image: none !important; }');
 
-    _addAllOfTheStyles('table { background-color: #1A1F1C !important; \
+    _addAllOfTheStyles('table { background-color: '+bgColor+' !important; \
                         font-family: Hind,Arial,sans-serif !important; }');
 
-    _addAllOfTheStyles('a:link { color: #116466; \
+    _addAllOfTheStyles('a:link { color: '+linkColor+'; \
                                  text-decoration: none; \
                                  font-family: Hind,Arial,sans-serif;');
 
-    _addAllOfTheStyles('a:hover { color: #D1E8E2; \
+    _addAllOfTheStyles('a:hover { color: '+linkHoverColor+'; \
                                   text-decoration: none; }');
 })();
