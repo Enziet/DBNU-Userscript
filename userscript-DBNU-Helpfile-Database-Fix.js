@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DBNU Helpfile Database Fix
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  This makes the DBNU Helpfile Database page not look like it was made in 2002 by a highschool teenager, and many other random fixes/prettify
 // @author       Julet@DBNU
 // @match        http://dbnu.mudhosting.net/helps/
