@@ -16,6 +16,7 @@
     var bgColor = '#1A1F1C';
     var linkColor = '#116466';
     var linkHoverColor = '#D1E8E2';
+    var linkVisitedColor = '#D9B08C';
 
     function _addAllOfTheStyles(css) {
         var head, style;
@@ -41,4 +42,7 @@
 
     _addAllOfTheStyles('a:hover { color: '+linkHoverColor+'; \
                                   text-decoration: none; }');
+                                
+    _addAllOfTheStyles('a:visited { color: '+linkVisitedColor+'; \
+                                    text-decoration: none; }');
 })();
